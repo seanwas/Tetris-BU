@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tetris</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tetris</h1>
+    </header>
+    <div class='container'>
+        <div class='stats-area'>
+            <div class='stats'>
+                <div>Score</div>
+                <div id='score'>0</div>
+            </div>
+            <div class='stats'>
+                <div>Level</div>
+                <div id='level'>1</div>
+            </div>
+            <div class='stats'>
+                <div>Pieces Left</div>
+                <div id='pieces'>10</div>
+            </div>
+
+            <div class='next-area'>
+                <div>Next Piece</div>
+                <div id='next'>
+                    <div class='next-row'>
+                        <div class='next-square'>&nbsp;</div>
+                        <div class='next-square'>&nbsp;</div>
+                        <div class='next-square'>&nbsp;</div>
+                        <div class='next-square'>&nbsp;</div>
+                    </div>
+                    <div class='next-row'>
+                        <div class='next-square'>&nbsp;</div>
+                        <div class='next-square'>&nbsp;</div>
+                        <div class='next-square'>&nbsp;</div>
+                        <div class='next-square'>&nbsp;</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class='main-game'>
+        </div>
+    </div>
+
+    <script src="js/stats.js"></script>
+    <script src="js/rows.js"></script>
+    <script src="js/variables.js"></script>
+    <script src="js/pieces.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
